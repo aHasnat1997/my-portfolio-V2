@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: url('assets/main-bg.png');
+  background-position: top;
+  background-size: cover;
+}
+
+.max-w {
+  @apply max-w-screen-lg mx-auto px-10;
+}

@@ -1,0 +1,31 @@
+import { FaLinkedinIn, FaGithub, FaFacebookF } from "react-icons/fa";
+import myImg from '../../assets/my-img.png'
+
+const PersonalInfo = () => {
+  return (
+    <section className='w-full min-h-[90vh] border px-8 rounded-2xl lg:sticky top-16 flex justify-center items-center text-white'>
+      <div className="flex flex-col justify-center items-center gap-8">
+        <div>
+          <h1 className='text-5xl uppercase font-bold text-center'>A.Hasnat</h1>
+          <h3 className='text-xl uppercase font-bold text-center'>Full-Stack Developer</h3>
+        </div>
+        <div className='rounded-full overflow-hidden border border-neutral w-60 h-60 mx-auto'>
+          <img src={myImg} alt="Image" />
+        </div>
+        <div className='text-center'>
+          <p className='text-xl'>a.hasnat.dev1@gmail.com</p>
+          <p>Dhaka, Bangladesh</p>
+          <div className="flex justify-center gap-4 py-4">
+            <a href="#" className="btn btn-ghost btn-circle text-3xl"><FaFacebookF /></a>
+            <a href="#" className="btn btn-ghost btn-circle text-3xl"><FaGithub /></a>
+            <a href="#" className="btn btn-ghost btn-circle text-3xl"><FaLinkedinIn /></a>
+          </div>
+          <p className='text-gray-300'>© 2023 A.Hasnat. All Rights Reserved</p>
+        </div>
+        {/* <p>Skilled full-stack web developer proficient in HTML, CSS, JavaScript, React, Tailwind, Bootstrap, Express, and MongoDB.</p> */}
+      </div>
+    </section>
+  );
+};
+
+export default PersonalInfo;
