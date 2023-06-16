@@ -22,7 +22,6 @@ const PersonalInfo = () => {
           </div>
           <p className='text-gray-300'>© 2023 A.Hasnat. All Rights Reserved</p>
         </div>
-        {/* <p>Skilled full-stack web developer proficient in HTML, CSS, JavaScript, React, Tailwind, Bootstrap, Express, and MongoDB.</p> */}
       </div>
     </section>
   );

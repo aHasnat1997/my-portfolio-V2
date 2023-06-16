@@ -11,3 +11,7 @@ body {
 .max-w {
   @apply max-w-screen-lg mx-auto px-10;
 }
+
+.section{
+  @apply max-w w-full my-32;
+}
