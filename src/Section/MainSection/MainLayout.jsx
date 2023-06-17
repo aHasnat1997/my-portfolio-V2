@@ -3,6 +3,7 @@ import Header from "./Header";
 import Projects from "./Projects";
 import Quality from "./Quality";
 import Services from "./Services";
+import Skills from "./Skills";
 
 
 const MainLayout = () => {
@@ -11,6 +12,7 @@ const MainLayout = () => {
       <Header />
       <About />
       <Services />
+      <Skills />
       <Projects />
       <Quality />
     </>

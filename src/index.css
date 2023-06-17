@@ -13,5 +13,9 @@ body {
 }
 
 .section{
-  @apply max-w w-full my-32;
+  @apply max-w w-full py-24;
+}
+
+.color{
+  color: rgb(0, 119, 255);
 }
